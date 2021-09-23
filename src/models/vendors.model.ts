@@ -16,10 +16,10 @@ export class Vendors extends Entity {
   name: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  categoryId: number;
+  categoryId: string;
 
   @property({
     type: 'string',

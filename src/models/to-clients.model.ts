@@ -10,22 +10,22 @@ export class ToClients extends Entity {
   id?: number;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  clientId: number;
+  clientId: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  productId: number;
+  productId: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  quantity: number;
+  quantity: string;
 
   @property({
     type: 'string',
@@ -33,9 +33,9 @@ export class ToClients extends Entity {
   remark?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  staffId?: number;
+  staffId?: string;
 
   @property({
     type: 'date',

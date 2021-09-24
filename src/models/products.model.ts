@@ -22,16 +22,16 @@ export class Products extends Entity {
   code: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  categoryId: number;
+  categoryId: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  vendorId: number;
+  vendorId: string;
 
   @property({
     type: 'string',
@@ -39,9 +39,9 @@ export class Products extends Entity {
   description?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  storeId?: number;
+  storeId?: string;
 
 
   constructor(data?: Partial<Products>) {

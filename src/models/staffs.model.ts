@@ -10,10 +10,10 @@ export class Staffs extends Entity {
   id?: number;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  roleId: number;
+  roleId: string;
 
   @property({
     type: 'string',
@@ -46,9 +46,9 @@ export class Staffs extends Entity {
   jobTitle: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  branchId?: number;
+  branchId?: string;
 
   @property({
     type: 'string',

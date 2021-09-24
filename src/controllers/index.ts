@@ -10,3 +10,4 @@ export * from './store.controller';
 export * from './vendor.controller';
 
 export * from './to-client.controller';
+export * from './product.controller';

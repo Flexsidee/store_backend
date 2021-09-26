@@ -2,14 +2,10 @@ import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
-  name: 'fieldbase',
-  connector: 'mysql',
-  url: '',
-  host: 'localhost',
-  port: 3306,
-  user: 'root',
-  password: '',
-  database: 'fieldbase'
+  username: 'be4ccb7ec7e146',
+  password: '3b5e7647',
+  host: 'us-cdbr-east-04.cleardb.com',
+  database: 'heroku_cd1bfe087139122',
 };
 
 // Observe application's life cycle to disconnect the datasource when VB36a(M[H3sep6

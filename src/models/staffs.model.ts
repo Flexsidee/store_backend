@@ -56,9 +56,9 @@ export class Staffs extends Entity {
   image?: string;
 
   @property({
-    type: 'date',
+    type: 'string',
   })
-  date_joined?: string;
+  dateJoined?: string;
 
   @property({
     type: 'string',

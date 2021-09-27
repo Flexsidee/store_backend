@@ -5,11 +5,11 @@ const config = {
   name: 'fieldbase_test',
   connector: 'mysql',
   url: '',
-  host: 'localhost',
+  host: '67.225.140.29',
   port: 3306,
-  user: 'root',
-  password: '',
-  database: 'test_fieldbase'
+  user: 'duonymit',
+  password: 'VB36a(M[H3sep6',
+  database: 'duonymit_fieldbase_test'
 };
 
 // Observe application's life cycle to disconnect the datasource when

@@ -2,6 +2,8 @@ import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
+  name: 'fieldbase_test',
+  connector: 'mysql',
   username: 'be4ccb7ec7e146',
   password: '3b5e7647',
   host: 'us-cdbr-east-04.cleardb.com',

@@ -2,18 +2,14 @@ import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
-  name: 'fieldbase_test',
-  connector: 'mysql',
-  url: '',
-  host: '67.225.140.29',
-  port: 3306,
-  user: 'duonymit',
-  password: 'VB36a(M[H3sep6',
-  database: 'duonymit_fieldbase_test'
+  username: 'be4ccb7ec7e146',
+  password: '3b5e7647',
+  host: 'us-cdbr-east-04.cleardb.com',
+  database: 'heroku_cd1bfe087139122',
 };
 
-// Observe application's life cycle to disconnect the datasource when
-// application is stopped. This allows the application to be shut down
+// Observe application's life cycle to disconnect the datasource when VB36a(M[H3sep6
+//This allows the application to be shut down
 // gracefully. The `stop()` method is inherited from `juggler.DataSource`.
 // Learn more at https://loopback.io/doc/en/lb4/Life-cycle.html
 @lifeCycleObserver('datasource')

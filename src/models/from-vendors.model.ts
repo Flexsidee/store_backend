@@ -10,16 +10,16 @@ export class FromVendors extends Entity {
   id?: number;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  productId: number;
+  productId: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  quantity: number;
+  quantity: string;
 
   @property({
     type: 'string',
@@ -27,19 +27,19 @@ export class FromVendors extends Entity {
   remark?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  logisticId?: number;
+  logisticId?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  staffId?: number;
+  staffId?: string;
 
   @property({
-    type: 'number',
+    type: 'string',
   })
-  storeId?: number;
+  storeId?: string;
 
   @property({
     type: 'date',

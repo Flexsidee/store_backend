@@ -8,7 +8,6 @@ const config = {
   password: '3b5e7647',
   host: 'us-cdbr-east-04.cleardb.com',
   database: 'heroku_cd1bfe087139122',
-  port: process.env.PORT,
 };
 
 // Observe application's life cycle to disconnect the datasource when VB36a(M[H3sep6
